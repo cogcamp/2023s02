@@ -21,6 +21,7 @@ loadScene.preload = function() {
     // 敵画像
     this.load.image('enemy01', 'assets/images/enemy01.png');
     this.load.image('enemy02', 'assets/images/enemy02.png');
+    this.load.image('enemy03', 'assets/images/enemy03.png');
     this.load.image('enemy05', 'assets/images/enemy05.png');
     this.load.image('enemy07', 'assets/images/enemy07.png');
     this.load.image('enemy08', 'assets/images/enemy08.png');
