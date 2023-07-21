@@ -13,7 +13,7 @@ mainScene.config = function() {
     // スコアの初期値
     this.score = 0;
     // 敵の配列
-    this.enemyData = ['enemy01','enemy02','enemy05','enemy07','enemy08','enemy03'];
+    this.enemyData = ['kids','ojisan1'];
     // 敵のスピードを設定する配列
     this.enemySpeed = [-100,-50,50,100];
     // カーソルを取得する
@@ -110,7 +110,7 @@ mainScene.createPlayer = function() {
     this.player.body.setSize(20,25);
     
     // プレイヤーのサイズ変更
-    this.player.setDisplaySize(10,10);
+    this.player.setDisplaySize(90,90);
     
     // プレイヤーの方向
     this.player.direction = 'right';
@@ -185,8 +185,8 @@ mainScene.createEnemy = function() {
     var enemyType = Phaser.Math.RND.pick(this.enemyData);
     var enemyPositionX = Phaser.Math.RND.between(500, 2000);
     var enemy = this.enemies.create(enemyPositionX,100,enemyType);
-    enemy.body.setSize(350,350);
-    enemy.setDisplaySize(150,150);
+    enemy.body.setSize(150,150);
+    enemy.setDisplaySize(50,50);
     var speed = Phaser.Math.RND.pick(this.enemySpeed);
     enemy.setVelocityX(speed);
 };
@@ -219,7 +219,7 @@ mainScene.shoot = function() {
     var y = this.player.body.center.y;
     var fire = this.fireGroup.create(x,y,'fire');
     fire.body.setSize(20,20);
-    fire.setDisplaySize(500,500);
+    fire.setDisplaySize(10,10);
     fire.body.setAllowGravity(false);
     
     var speed = 600;

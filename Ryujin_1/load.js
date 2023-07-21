@@ -24,7 +24,8 @@ loadScene.preload = function() {
     this.load.image('enemy03', 'assets/images/enemy03.png');
     this.load.image('enemy05', 'assets/images/enemy05.png');
     this.load.image('enemy07', 'assets/images/enemy07.png');
-    this.load.image('enemy08', 'assets/images/enemy08.png');
+    this.load.image('kids', 'assets/images/kids_chuunibyou_boy.png');
+    this.load.image('ojisan1', 'assets/images/kousyu_ojisan.png');
     // ファイヤ画像
     this.load.image('fire', 'assets/images/fire.png');
 };
