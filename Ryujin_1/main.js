@@ -7,7 +7,7 @@ mainScene.config = function() {
     // プレイヤーのジャンプパワー
     this.jumpPower = 500;
     // プレイヤーの画像
-    this.playerImage = "player1";
+    this.playerImage = "player2";
     // ゲームオーバーフラグ
     this.isGameOver = false;
     // スコアの初期値
