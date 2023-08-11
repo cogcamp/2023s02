@@ -22,10 +22,13 @@ loadScene.preload = function() {
     this.load.image('enemy01', 'assets/images/enemy01.png');
     this.load.image('enemy02', 'assets/images/enemy02.png');
     this.load.image('enemy05', 'assets/images/enemy05.png');
+    this.load.image('enemy06', 'assets/images/enemy06.png');
     this.load.image('enemy07', 'assets/images/enemy07.png');
     this.load.image('enemy08', 'assets/images/enemy08.png');
+    this.load.image('demon', 'assets/images/demon_walk_9.png')
+    this.load.image('enemy10', 'assets/images/enemy10.png');
     // ファイヤ画像
-    this.load.image('fire', 'assets/images/fire.png');
+    this.load.image('fire', 'assets/images/frame0008.png');
 };
 
 loadScene.create = function() {
