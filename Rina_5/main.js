@@ -68,7 +68,7 @@ mainScene.config = function() {
     
     // ボール発射の加速度
     this.ballSpeedX = 0;
-    this.ballSpeedY = -350;
+    this.ballSpeedY = -300;
     
     // ライフ
     this.life = 5;
