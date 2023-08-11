@@ -43,13 +43,13 @@ mainScene.createParticle = function() {
     var particles = this.add.particles('flares');
     // エミッター起動
     var emitter = particles.createEmitter({
-        frame : [0, 1, 2, 3, 4, 5],
+        frame : [2,4],
         emitZone: { source: emitZone },
-        speed: { min: -20, max: 20 },
-        scale: { min: 0.5, max: 0.8 },
+        speed: { min: -30, max: 10 },
+        scale: { min: 1, max: 2 },
         alpha: { start: 1, end: 0 },
-        frequency : 50,
-        lifespan: 3000,
+        frequency : 150,
+        lifespan: 5000,
         blendMode: 'COLOR',
     });
 };
